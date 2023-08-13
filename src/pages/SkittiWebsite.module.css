@@ -573,6 +573,90 @@
 
 /* Responsive styles for smaller screens */
 @media only screen and (max-width: 480px) {
+  .bitmapIcon,
+  .bitmapIcon1,
+  .bitmapIcon2,
+  .bitmapIcon3,
+  .bitmapIcon4,
+  .bitmapIcon5 {
+    scale: 0.5;
+    width: 35%;
+  }
+
+  .bitmapIcon {
+
+    object-fit: cover;
+    animation: rotate 4s linear infinite;
+  }
+  .bitmapIcon,
+  .bitmapIcon1,
+  .bitmapIcon2 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .bitmapIcon1 {
+
+    object-fit: cover;
+    animation: rotate 4s linear infinite;
+  }
+  .bitmapIcon2 {
+
+    animation: rotate 4s linear infinite;
+  }
+  .bitmapIcon2,
+  .bitmapIcon3,
+  .bitmapIcon4 {
+
+    object-fit: cover;
+  }
+  .bitmapIcon3 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    animation: rotate 4s linear infinite;
+  }
+  .bitmapIcon4 {
+
+    animation: rotate 4s linear infinite;
+  }
+  .bitmapIcon4,
+  .bitmapIcon5,
+  .frameInner {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .bitmapIcon5 {
+
+    object-fit: cover;
+    animation: rotate 4s linear infinite;
+  }
+
+  .whetherYoureFeeling {
+    top: 2607px;
+    left: 0rem;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 171px;
+    margin-left: 2rem;
+    
+  }
+
+  .frameItem {
+    position: absolute;
+    top: 100rem;
+    left: 0;
+    border-radius: 10px;
+    background-color: #5c07ab;
+    width: 100%;
+    height: 100vh;
+  }
   
   .skitiiParent {
   
@@ -704,8 +788,8 @@
 }
 .component1Wrapper
 {
-  top: 50rem;
-  left: 0rem;
+  top: 100rem;
+  left: 6rem;
   border-radius: var(--br-xl);
   background-color: var(--color-white);
   overflow: hidden;
@@ -725,18 +809,22 @@
 }
 .reachYourLearning
 {
-  top: 43rem;
+  top: 37rem;
   left: 13rem;
   /* width: 54rem; */
-  font-size: 23px;
+  font-size: 30px;
   width: 7rem;
-  letter-spacing: 1.8px;
+  letter-spacing: -1.2px;
   /* height: 37px; */
   line-height: 32px;
 }
 .createAPersonalized
 {
-  
+  top: 45rem;
+  left: 13rem;
+  font-size: 15px;
+  width: 9rem;
+  height: 117px;
 }
   /* .skittiWebsite {
     position: relative;
