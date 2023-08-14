@@ -334,7 +334,7 @@
 .bitmapIcon {
   height: 2.75%;
   width: 10.42%;
-  top: 42.22%;
+  top: 45.22%;
   right: 59.44%;
   bottom: 55.03%;
   left: 30.14%;
@@ -352,18 +352,18 @@
 .bitmapIcon1 {
   height: 2.75%;
   width: 10.42%;
-  top: 43.59%;
-  right: 28.75%;
+  top: 46.20%;
+  right: -4.75%;
   bottom: 53.66%;
-  left: 60.83%;
+  /* left: 60.83%; */
   object-fit: cover;
   animation: rotate 4s linear infinite;
 }
 .bitmapIcon2 {
-  top: 51.84%;
+  top: 49.84%;
   right: 63.96%;
   bottom: 45.41%;
-  left: 25.63%;
+  left: -4.74%;
   animation: rotate 4s linear infinite;
 }
 .bitmapIcon2,
@@ -375,20 +375,20 @@
 }
 .bitmapIcon3 {
   position: absolute;
-  top: 51.84%;
+  top: 50.84%;
   right: 23.54%;
   bottom: 45.41%;
-  left: 66.04%;
+  left: 30.14%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   animation: rotate 4s linear infinite;
 }
 .bitmapIcon4 {
-  top: 47.92%;
-  right: 6.74%;
+  top: 49.84%;
+  right: -4.75%;
   bottom: 49.33%;
-  left: 82.85%;
+  /* left: 82.85%; */
   animation: rotate 4s linear infinite;
 }
 .bitmapIcon4,
@@ -402,10 +402,10 @@
 .bitmapIcon5 {
   height: 2.75%;
   width: 10.42%;
-  top: 46.34%;
-  right: 82.85%;
+  top: 46.20%;
+  /* right: 82.85%; */
   bottom: 50.91%;
-  left: 6.74%;
+  left: -4.74%;
   object-fit: cover;
   animation: rotate 4s linear infinite;
 }
@@ -573,6 +573,28 @@
 
 /* Responsive styles for smaller screens */
 @media only screen and (max-width: 480px) {
+
+  .hostsLiveQuizzesThatYouCaParent{
+    position: absolute;
+    top: 100rem;
+    left: 1rem;
+    width: 47%;
+    height: 100vh;
+  }
+  .hostsLiveQuizzes{
+    width: 100%;
+    height: min-content;
+    top: 267px;
+  }
+  .learnMore{
+    top: 524px;
+  }
+  .liveQuiz{
+    width: 80vw;
+    top: 30px;
+  }
+
+
   .bitmapIcon,
   .bitmapIcon1,
   .bitmapIcon2,
@@ -742,8 +764,27 @@
 .liveQuizTxtContainer
 {
   font-size: 11px;
-  width: 205px;
+  width: 100%;
  
+}
+.rectangleDiv{
+  width: 100vw;
+  height: 100vh;
+  border-radius: 10px;
+}
+.rectangleParent1{
+  width: 100vw;
+  left: 0px;
+}
+.rectangleParent2{
+  scale:0.4;
+  position: absolute;
+  top: 5347px;
+  left: 63px;
+  width: 267px;
+  height: 95px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-royalblue);
 }
 
 .evenTheBrightestContainer
