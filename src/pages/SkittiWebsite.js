@@ -76,7 +76,7 @@ const SkittiWebsite = () => {
           </div>
         </div>
         <div className={styles.rectangleParent1}>
-          <img className={styles.groupItem} alt="" src="/rectangle-21@2x.png" />
+          <img className={styles.groupItem2} alt="" src="/rectangle-21@2x.png" />
           <div className={styles.rectangleDiv} />
           <div className={styles.theStudyPattern}>
             The Study Pattern Analysis feature analyzes your study pattern and
