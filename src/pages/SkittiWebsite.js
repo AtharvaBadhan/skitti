@@ -1,6 +1,5 @@
 import styles from "./SkittiWebsite.module.css";
 
-
 const SkittiWebsite = () => {
   return (
     <div className={styles.skittiWebsite}>
@@ -27,14 +26,15 @@ const SkittiWebsite = () => {
             </span>
           </div>
           <div className={styles.groupDiv}>
-            <div className={styles.groupInner} />
-            <div className={styles.download}>Download</div>
-          </div>
+            
+            <div>Download</div>
+          
           <img
             className={styles.materialSymbolsdownloadIcon}
             alt=""
             src="/materialsymbolsdownload.svg"
           />
+       </div>
         </div>
         <div className={styles.unleashYourFull}>
           Unleash your full potential with Skitti.
@@ -68,25 +68,28 @@ const SkittiWebsite = () => {
           </div>
           <div className={styles.learnMore}>{`Learn More  >`}</div>
           <div className={styles.liveQuiz}>
-            <span className={styles.liveQuizTxtContainer}>
+            <span className={styles.liveQuizTxtContainer1}>
               <span>Live</span>
               <span className={styles.span}>{` `}</span>
               <span className={styles.quiz}>Quiz</span>
             </span>
           </div>
         </div>
+        <div className={styles.group1} >
         <div className={styles.rectangleParent1}>
-          <img className={styles.groupItem} alt="" src="/rectangle-21@2x.png" />
+          <img className={styles.groupItem1} alt="" src="/rectangle-21@2x.png" />
           <div className={styles.rectangleDiv} />
           <div className={styles.theStudyPattern}>
             The Study Pattern Analysis feature analyzes your study pattern and
             provides recommendations on how you can improve.
           </div>
+          </div>
           <div className={styles.studyPatternAnalysis}>
             Study Pattern Analysis
           </div>
           <div className={styles.learnMore1}>{`Learn More  >`}</div>
-        </div>
+        </div> 
+        <div className={styles.emoji} >
         <img className={styles.bitmapIcon} alt="" src="/bitmap@2x.png" />
         <img className={styles.bitmapIcon1} alt="" src="/bitmap1@2x.png" />
         <img className={styles.bitmapIcon2} alt="" src="/bitmap2@2x.png" />
@@ -94,6 +97,7 @@ const SkittiWebsite = () => {
         <img className={styles.bitmapIcon4} alt="" src="/bitmap4@2x.png" />
         <img className={styles.bitmapIcon5} alt="" src="/bitmap5@2x.png" />
         <img className={styles.frameInner} alt="" src="/group-4.svg" />
+        </div>
         <div className={styles.rectangleParent2}>
           <div className={styles.groupChild1} />
           <div className={styles.english}>English</div>

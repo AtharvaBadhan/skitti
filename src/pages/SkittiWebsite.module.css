@@ -333,7 +333,7 @@
 }
 .bitmapIcon {
   height: 2.75%;
-  width: 10.42%;
+  width: 12.42%;
   top: 42.22%;
   right: 59.44%;
   bottom: 55.03%;
@@ -351,7 +351,7 @@
 }
 .bitmapIcon1 {
   height: 2.75%;
-  width: 10.42%;
+  width: 12.42%;
   top: 43.59%;
   right: 28.75%;
   bottom: 53.66%;
@@ -370,7 +370,7 @@
 .bitmapIcon3,
 .bitmapIcon4 {
   height: 2.75%;
-  width: 10.42%;
+  width: 12.42%;
   object-fit: cover;
 }
 .bitmapIcon3 {
@@ -401,7 +401,7 @@
 }
 .bitmapIcon5 {
   height: 2.75%;
-  width: 10.42%;
+  width: 12.42%;
   top: 46.34%;
   right: 82.85%;
   bottom: 50.91%;
@@ -567,11 +567,9 @@
     width: 100%;
     border-radius: 0;
   }
-
-  /* ... (Adjust other styles for better flow) ... */
 }
 
-/* Responsive styles for smaller screens */
+
 @media only screen and (max-width: 480px) {
   .bitmapIcon,
   .bitmapIcon1,
@@ -584,7 +582,6 @@
   }
 
   .bitmapIcon {
-
     object-fit: cover;
     animation: rotate 4s linear infinite;
   }
@@ -618,12 +615,18 @@
     max-height: 100%;
     animation: rotate 4s linear infinite;
   }
-  .bitmapIcon4 {
-
+  .bitmapIcon4
+   {
+    position: absolute;
+    top: 19%;
+    left: 5%;
     animation: rotate 4s linear infinite;
   }
-  .bitmapIcon4,
-  .bitmapIcon5,
+  
+  .bitmapIcon5
+  {
+
+  }
   .frameInner {
     position: absolute;
     max-width: 100%;
@@ -637,7 +640,7 @@
   }
 
   .whetherYoureFeeling {
-    top: 2607px;
+    top: 22%;
     left: 0rem;
     font-size: 20px;
     text-align: center;
@@ -652,7 +655,7 @@
     position: absolute;
     top: 100rem;
     left: 0;
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: #5c07ab;
     width: 100%;
     height: 100vh;
@@ -743,7 +746,6 @@
 {
   font-size: 11px;
   width: 205px;
- 
 }
 
 .evenTheBrightestContainer
@@ -752,7 +754,7 @@
   top: -1rem;
   left: -4rem;
 }
-.groupInner
+/* .groupInner
 {
   position: absolute;
   top: -25rem;
@@ -761,12 +763,30 @@
   background-color: #0441bf;
   width: 4rem;
   height: 1rem;
+} */
+.groupDiv
+{
+  position: absolute;
+  top: 8rem;
+  left: -3rem;
+  border-radius: var(--br-21xl);
+  background-color: #0441bf;
+  width: 86px;
+  height: 18px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.studyPatternAnalysis
+{
+  
 }
 .download
 {
   position: absolute;
   top: -424px;
-  left: -192px;
+  left: -190px;
   font-size: 8px;
   letter-spacing: 1px;
   line-height: 67px;
@@ -776,6 +796,13 @@
   align-items: center;
   justify-content: center;
   width: 114.85px;
+}
+.materialSymbolsdownloadIcon
+{
+  position: absolute;
+  top: -30%;
+  left: 69%;
+  scale: 0.45;
 }
 .component2Wrapper
 {
@@ -826,7 +853,61 @@
   width: 9rem;
   height: 117px;
 }
-  /* .skittiWebsite {
+.getStarted{
+position: absolute;
+margin-top: 20px;
+line-height: normal;
+width: 100%;
+left: 102%;
+top: 7%;
+font-size: 16px;
+}
+.hostsLiveQuizzes
+{
+top: 240px;
+display: flex;
+align-items: center;
+width: 45%;
+height: 121px;
+}
+.hostsLiveQuizzesThatYouCaParent
+{
+  position: absolute;
+  top: 31%;
+  left: 4%;
+  width: 378px;
+  height: 407px;
+}
+.learnMore
+{
+  position: absolute;
+  top: 110%;
+}
+.liveQuizTxtContainer1
+{
+  font-size: 44%;
+    position: absolute;
+    top: 26%;
+}
+.group1
+{
+  position: absolute;
+  top: -1987px;
+  left: -31%;
+  border-radius: 0px;
+}
+.rectangleDiv
+{
+  top: 0;
+  left: 0;
+  border-radius: 0px;
+  background-color: var(--color-midnightblue);
+  width: 425px;
+  height: 748px;
+}
+
+  /* .skittiWebsit
+  e {
     position: relative;
     background-color: black;
     width: 100%;
