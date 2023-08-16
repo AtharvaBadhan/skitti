@@ -1,5 +1,6 @@
 import styles from "./SkittiWebsite.module.css";
 
+
 const SkittiWebsite = () => {
   return (
     <div className={styles.skittiWebsite}>
@@ -13,7 +14,7 @@ const SkittiWebsite = () => {
           <img className={styles.groupItem} alt="" src="/rectangle-2@2x.png" />
           <div className={styles.improveAcademics}>{`Improve Academics `}</div>
           <div className={styles.evenTheBrightestContainer}>
-            <span className={styles.liveQuizTxtContainer}>
+            <span className={styles.liveQuizTxtContainer1}>
               <p className={styles.evenTheBrightest}>
                 Even the brightest students can sometimes find themselves
                 academically underperforming, often through no fault of their
@@ -25,16 +26,16 @@ const SkittiWebsite = () => {
               </p>
             </span>
           </div>
-          <div className={styles.groupDiv}>
-            
-            <div>Download</div>
-          
+          {/* <div className={styles.groupDiv}> */}
+            <div className={styles.groupInner} >
+            <div className={styles.download}>Download</div>
+          {/* </div> */}
           <img
             className={styles.materialSymbolsdownloadIcon}
             alt=""
             src="/materialsymbolsdownload.svg"
           />
-       </div>
+          </div>
         </div>
         <div className={styles.unleashYourFull}>
           Unleash your full potential with Skitti.
@@ -68,28 +69,28 @@ const SkittiWebsite = () => {
           </div>
           <div className={styles.learnMore}>{`Learn More  >`}</div>
           <div className={styles.liveQuiz}>
-            <span className={styles.liveQuizTxtContainer1}>
+            <span className={styles.liveQuizTxtContainer}>
               <span>Live</span>
               <span className={styles.span}>{` `}</span>
               <span className={styles.quiz}>Quiz</span>
             </span>
           </div>
         </div>
-        <div className={styles.group1} >
         <div className={styles.rectangleParent1}>
-          <img className={styles.groupItem1} alt="" src="/rectangle-21@2x.png" />
+          
           <div className={styles.rectangleDiv} />
           <div className={styles.theStudyPattern}>
             The Study Pattern Analysis feature analyzes your study pattern and
             provides recommendations on how you can improve.
           </div>
-          </div>
           <div className={styles.studyPatternAnalysis}>
             Study Pattern Analysis
           </div>
-          <div className={styles.learnMore1}>{`Learn More  >`}</div>
-        </div> 
-        <div className={styles.emoji} >
+          <div className={styles.learnMore1}>{`Learn More  >`}
+          </div>
+          <img className={styles.groupImage2} alt="" src="/rectangle-21@2x.png" />
+        </div>
+        <div className={styles.emoji}>
         <img className={styles.bitmapIcon} alt="" src="/bitmap@2x.png" />
         <img className={styles.bitmapIcon1} alt="" src="/bitmap1@2x.png" />
         <img className={styles.bitmapIcon2} alt="" src="/bitmap2@2x.png" />

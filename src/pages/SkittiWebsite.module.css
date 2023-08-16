@@ -5,8 +5,8 @@
   left: 0;
   background-color: var(--color-lightsteelblue);
   width: 100%;
-  height: 5453px;
-  animation: slideFromLeft 1s ease-in-out forwards;
+  height: 69%;
+  animation: SkittiWebsite_slideFromLeft__liLWF 1s ease-in-out forwards;
 }
 .groupChild {
   top: 3px;
@@ -45,6 +45,16 @@
   width: 1286px;
   height: 747px;
   object-fit: cover;
+}
+.groupImage2
+{
+  position: absolute;
+  top: 0px;
+  left: 35%;
+  border-radius: 0 var(--br-11xl)var(--br-11xl) 0;
+  height: 100%;
+  object-fit: cover;
+  width: 72%;
 }
 @media (max-width: 768px) {
   .groupChild {
@@ -94,8 +104,8 @@
 }
 .groupInner {
   position: absolute;
-  top: 4px;
-  left: 0;
+  top: 72%;
+  left: 17%;
   border-radius: var(--br-21xl);
   background-color: #0441bf;
   width: 223px;
@@ -126,8 +136,8 @@
 }
 .materialSymbolsdownloadIcon {
   position: absolute;
-  top: 543px;
-  left: 293px;
+  top: 18px;
+  left: 165px;
   width: 30px;
   height: 30px;
   overflow: hidden;
@@ -584,6 +594,9 @@
   .bitmapIcon {
     object-fit: cover;
     animation: rotate 4s linear infinite;
+    position: absolute;
+    top: 25%;
+    left: 3%;
   }
   .bitmapIcon,
   .bitmapIcon1,
@@ -597,10 +610,16 @@
 
     object-fit: cover;
     animation: rotate 4s linear infinite;
+    position: absolute;
+    top: 25.5%;
+    left: 35%;
   }
   .bitmapIcon2 {
 
     animation: rotate 4s linear infinite;
+    position: absolute;
+    top: 18.5%;
+    left: 35%;
   }
   .bitmapIcon2,
   .bitmapIcon3,
@@ -614,6 +633,9 @@
     overflow: hidden;
     max-height: 100%;
     animation: rotate 4s linear infinite;
+    position: absolute;
+    top: 25%;
+    
   }
   .bitmapIcon4
    {
@@ -625,13 +647,28 @@
   
   .bitmapIcon5
   {
-
+    position: absolute;
+    top: 19%;
+    /* right: 3%; */
+    left: 65%;
   }
   .frameInner {
     position: absolute;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
+    top: 67%;
+    scale: 3.5;
+  }
+  .rectangleParent2
+  {
+  position: absolute;
+    top: 64.5%;
+    left: 25%;
+    width: 267px;
+    height: 95px;
+    font-size: var(--font-size-13xl);
+    color: var(--color-royalblue);
   }
   .bitmapIcon5 {
 
@@ -722,11 +759,23 @@
 .groupItem
 {
   position: absolute;
-  top: -5rem;
-  left: -5.5rem;
-  width: 22rem;
-  height: 15rem;
+  top: -47%;
+  left: -97px;
+  width: 373px;
+  height: 16rem;
+  object-fit: inherit;
+  border-radius: 44px;
+}
+.groupImage2
+{
+  position: absolute;
+  top: -209px;
+  left: -107px;
+  width: 370px;
+  height: 16rem;
   object-fit: cover;
+  box-shadow: 0px 4px 8px #000;
+  border-radius: 46px;
 }
 .improveAcademics
 {
@@ -744,10 +793,16 @@
 }
 .liveQuizTxtContainer
 {
-  font-size: 11px;
+  font-size: 29px;
   width: 205px;
 }
-
+.liveQuizTxtContainer1
+{
+  font-size: 51%;
+  position: absolute;
+  top: 26%;
+  width: 181px;
+}
 .evenTheBrightestContainer
 {
   position: absolute;
@@ -764,7 +819,7 @@
   width: 4rem;
   height: 1rem;
 } */
-.groupDiv
+/* .groupDiv
 {
   position: absolute;
   top: 8rem;
@@ -777,19 +832,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .studyPatternAnalysis
 {
-  
+  top: 106px;
+  font-size: var(--font-size-45xl);
+  letter-spacing: 1.8px;
+  line-height: 80px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 307px;
+  left: -23%;
+}
+.theStudyPattern
+{
+  position: absolute;
+  left: -24%;
+  text-transform: capitalize;
+}
+.learnMore1
+{
+      position: absolute;
+    left: -24%;
+    text-transform: capitalize;
 }
 .download
 {
-  position: absolute;
-  top: -424px;
-  left: -190px;
-  font-size: 8px;
-  letter-spacing: 1px;
-  line-height: 67px;
+  font-size: 26px;
+  /* letter-spacing: 1px; */
+  /* line-height: 67px; */
   text-transform: capitalize;
   font-weight: 500;
   display: flex;
@@ -800,13 +872,12 @@
 .materialSymbolsdownloadIcon
 {
   position: absolute;
-  top: -30%;
-  left: 69%;
-  scale: 0.45;
+  top: 28%;
+  left: 79%;
 }
 .component2Wrapper
 {
-  top: 21rem;
+  top: 24rem;
   left: -6rem;
   border-radius: var(--br-xl);
   background-color: var(--color-white);
@@ -836,7 +907,7 @@
 }
 .reachYourLearning
 {
-  top: 37rem;
+  top: 41rem;
   left: 13rem;
   /* width: 54rem; */
   font-size: 30px;
@@ -847,7 +918,7 @@
 }
 .createAPersonalized
 {
-  top: 45rem;
+  top: 50rem;
   left: 13rem;
   font-size: 15px;
   width: 9rem;
@@ -898,14 +969,31 @@ height: 121px;
 }
 .rectangleDiv
 {
-  top: 0;
-  left: 0;
+  top: 67px;
+  left: -115px;
   border-radius: 0px;
   background-color: var(--color-midnightblue);
-  width: 425px;
+  width: 100%;
   height: 748px;
 }
-
+.rectangleParent1
+{
+  position: absolute;
+  top: 49%;
+  left: 115px;
+  width: 100%;
+}
+.groupInner
+{
+  position: absolute;
+  top: 93%;
+  left: -39%;
+  border-radius: var(--br-21xl);
+  background-color: #0441bf;
+  width: 223px;
+  height: 60px;
+  scale: 0.5;
+}
   /* .skittiWebsit
   e {
     position: relative;
