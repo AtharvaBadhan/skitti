@@ -5,7 +5,7 @@
   left: 0;
   background-color: var(--color-lightsteelblue);
   width: 100%;
-  height: 69%;
+  height: 100%;
   animation: SkittiWebsite_slideFromLeft__liLWF 1s ease-in-out forwards;
 }
 .groupChild {
@@ -337,7 +337,7 @@
 .rectangleParent1 {
   position: absolute;
   top: 4431px;
-  left: 115px;
+  left: 65px;
   width: 1286px;
   height: 748px;
 }
@@ -574,8 +574,13 @@
 }
 @media (max-width: 480px) {
   .groupChild {
-    width: 100%;
-    border-radius: 0;
+    position: absolute;
+    top: 13%;
+    left: 118%;
+    border-radius: var(--br-21xl);
+    background-color: var(--color-midnightblue);
+    width: 135px;
+    height: 53px;
   }
 }
 
