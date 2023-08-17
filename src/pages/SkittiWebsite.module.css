@@ -784,7 +784,7 @@
 {
   position: absolute;
   top: -209px;
-  left: -107px;
+  left: 10px;
   width: 370px;
   height: 16rem;
   object-fit: cover;
@@ -819,6 +819,7 @@
 }
 .evenTheBrightestContainer
 {
+  width: 50vw;
   position: absolute;
   top: -1rem;
   left: -4rem;
@@ -857,18 +858,18 @@
   display: flex;
   align-items: center;
   width: 307px;
-  left: -23%;
+  /* left: -23%; */
 }
 .theStudyPattern
 {
   position: absolute;
-  left: -24%;
+  /* left: -24%; */
   text-transform: capitalize;
 }
 .learnMore1
 {
       position: absolute;
-    left: -24%;
+    /* left: -24%; */
     text-transform: capitalize;
 }
 .download
@@ -938,15 +939,16 @@
   width: 9rem;
   height: 117px;
 }
-.getStarted{
-position: absolute;
-margin-top: 20px;
-line-height: normal;
-width: 100%;
-left: 102%;
-top: 7%;
-font-size: 16px;
+.getStarted {
+  position: absolute;
+  margin-top: 20px;
+  line-height: normal;
+  width: 80%;
+  left: 111%;
+  top: 7%;
+  font-size: 16px;
 }
+
 .hostsLiveQuizzes
 {
 top: 240px;
@@ -984,7 +986,7 @@ height: 121px;
 .rectangleDiv
 {
   top: 67px;
-  left: -115px;
+  left: 0px;
   border-radius: 0px;
   background-color: var(--color-midnightblue);
   width: 100%;
@@ -994,7 +996,7 @@ height: 121px;
 {
   position: absolute;
   top: 49%;
-  left: 115px;
+  left: 0px;
   width: 100%;
 }
 .groupInner
@@ -1008,6 +1010,14 @@ height: 121px;
   height: 60px;
   scale: 0.5;
 }
+.iongameControllerOutlineIcon, .akarIconstrophy{
+  display: none;
+}
+.skittiWebsite{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
   /* .skittiWebsit
   e {
     position: relative;
