@@ -1,20 +1,21 @@
-.frameChild,
+
 .groupChild {
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-lightsteelblue);
-  width: 100%;
-  height: 100%;
-  animation: SkittiWebsite_slideFromLeft__liLWF 1s ease-in-out forwards;
-}
-.groupChild {
-  top: 3px;
+  top: 0.5%;
+  left: 84%;
   border-radius: var(--br-21xl);
   background-color: var(--color-midnightblue);
-  width: 200px;
-  height: 60px;
+  width: 185px;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  line-height: normal;
+  justify-content: center;
+  font-size: 16px;
+  flex-wrap: wrap;
+  align-content: center;
 }
+
 .getStarted {
   position: absolute;
   top: 0;
@@ -27,9 +28,6 @@
   transition: opacity 0.5s ease, transform 0.5s ease; /* Transition properties */
 }
 .rectangleGroup {
-  position: absolute;
-  top: 24px;
-  left: 1210px;
   width: 200px;
   height: 67px;
   text-align: center;
@@ -69,10 +67,7 @@
     line-height: normal; /* Reset line-height */
   }
 
-  .rectangleGroup {
-    position: static; /* Adjust positioning for better flow */
-    margin-top: 20px; /* Add some spacing between elements */
-  }
+
 }
 .improveAcademics {
   position: absolute;
@@ -123,7 +118,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 114.85px;
+  width: 52.85px;
+  color: white;
+  text-decoration: auto;
+  font-family: 'Rubik';
 }
 .groupDiv {
   position: absolute;
@@ -343,7 +341,7 @@
 }
 .bitmapIcon {
   height: 2.75%;
-  width: 12.42%;
+  width: 11.42%;
   top: 42.22%;
   right: 59.44%;
   bottom: 55.03%;
@@ -361,7 +359,7 @@
 }
 .bitmapIcon1 {
   height: 2.75%;
-  width: 12.42%;
+  width: 11.42%;
   top: 43.59%;
   right: 28.75%;
   bottom: 53.66%;
@@ -380,7 +378,7 @@
 .bitmapIcon3,
 .bitmapIcon4 {
   height: 2.75%;
-  width: 12.42%;
+  width: 11.42%;
   object-fit: cover;
 }
 .bitmapIcon3 {
@@ -411,7 +409,7 @@
 }
 .bitmapIcon5 {
   height: 2.75%;
-  width: 12.42%;
+  width: 11.42%;
   top: 46.34%;
   right: 82.85%;
   bottom: 50.91%;
@@ -498,13 +496,17 @@
   left: 854px;
 }
 .rectangleParent {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
   width: 100%;
-  height: 5453px;
-
+  height: 5455px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+  animation: SkittiWebsite_fadeIn__FH3Sk 1s ease-in-out forwards;
 }
+
 .akarIconstrophy,
 .iongameControllerOutlineIcon {
   position: absolute;
@@ -575,12 +577,19 @@
 @media (max-width: 480px) {
   .groupChild {
     position: absolute;
-    top: 13%;
-    left: 118%;
+    top: 0.5%;
+    left: 60%;
     border-radius: var(--br-21xl);
     background-color: var(--color-midnightblue);
     width: 135px;
     height: 53px;
+    display: flex;
+    flex-direction: row;
+    line-height: normal;
+    justify-content: center;
+    font-size: 16px;
+    flex-wrap: wrap;
+    align-content: center;
   }
 }
 
@@ -872,7 +881,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 114.85px;
+  width: 52.85px;
 }
 .materialSymbolsdownloadIcon
 {

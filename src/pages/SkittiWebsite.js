@@ -3,13 +3,11 @@ import styles from "./SkittiWebsite.module.css";
 
 const SkittiWebsite = () => {
   return (
-    <div className={styles.skittiWebsite}>
+    // <div className={styles.skittiWebsite}>
       <div className={styles.rectangleParent}>
-        <div className={styles.frameChild} />
-        <div className={styles.rectangleGroup}>
-          <div className={styles.groupChild} />
-          <div className={styles.getStarted}>Get Started</div>
-        </div>
+        {/* <div className={styles.frameChild} /> */}
+       
+          <div className={styles.groupChild} > Get Started </div>
         <div className={styles.rectangleContainer}>
           <img className={styles.groupItem} alt="" src="/rectangle-2@2x.png" />
           <div className={styles.improveAcademics}>{`Improve Academics `}</div>
@@ -28,7 +26,14 @@ const SkittiWebsite = () => {
           </div>
           {/* <div className={styles.groupDiv}> */}
             <div className={styles.groupInner} >
-            <div className={styles.download}>Download</div>
+            <div className={styles.download}>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.skitii&hl=en_IN&gl=US"
+              className={styles.download}
+            >
+              Download
+            </a>
+            </div>
           {/* </div> */}
           <img
             className={styles.materialSymbolsdownloadIcon}
@@ -126,7 +131,7 @@ const SkittiWebsite = () => {
             />
           </div>
         </div>
-      </div>
+      
       <img
         className={styles.iongameControllerOutlineIcon}
         alt=""
